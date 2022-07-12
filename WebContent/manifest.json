@@ -1,0 +1,85 @@
+{
+	"_version": "1.1.0",
+	"library" : "sap.ushell.demo.UIPluginAddFooter",
+	"sap.app": {
+		"id": "zcesflp",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"supportedThemes": [
+		"sap_hcb",
+		"sap_belize"
+	],
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://detail-view",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.84.0",
+			"libs": {
+				"sap.ui.core": {
+					
+				},
+				"sap.m": {
+					
+				},
+				"sap.f": {
+					
+				},
+				"sap.ushell": {
+					
+				},
+				"sap.collaboration": {
+					"lazy": true
+				}
+			}
+		},
+		"resources": {
+            "css": [
+                  {
+                        "uri": "css/lmces.css"
+                  }
+            ]
+        },				
+		"config": {
+			"resourceBundle": "i18n/i18n.properties",
+			"serviceConfig": {
+				"serviceUrl": "/sap/opu/odata/sap/Z_CES_FLP_SRV/",
+				"apiSrvUrl": "/sap/opu/odata/sap/ZCES_SLACK_SRV/",
+				"apiChannel": "C018FE6PX8R",
+				"imageUrl": "https://owa.external.lmco.com/owa",
+				"test":"test"				
+			},
+			"imageServiceURL": "https://owa.external.lmco.com/owa/service.svc/s/GetPersonaPhoto?email=",
+			"dateFormat" : "en-US-u-ca-gregory",
+			"timezone" : "America/New_York",
+			"logoffURL": "/sap/public/bc/icf/logoff"
+		},
+		"models": {
+      		"i18n": {
+        	"type": "sap.ui.model.resource.ResourceModel",
+        	"settings": {
+          		"bundleName": "zcesflp.i18n.i18n"
+        }
+      }
+    }
+	}
+}

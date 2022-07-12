@@ -1,0 +1,9 @@
+.sapUiMedia-Std-Phone .lmcesFooter.sapMText {
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-stretch: condensed;
+}
+.lmcesFooter.sapMText  {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}

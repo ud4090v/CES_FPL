@@ -1,0 +1,135 @@
+{
+	"ok": true,
+	"messages": [
+		{
+			"type": "message",
+			"subtype": "channel_join",
+			"ts": "1624034658.000100",
+			"user": "U024RAGD5UP",
+			"text": "<@U024RAGD5UP> has joined the channel"
+		},
+		{
+			"bot_id": "B025ARL7FDH",
+			"type": "message",
+			"text": "Hello Victory members!",
+			"user": "U025P838CJV",
+			"ts": "1623966333.001400",
+			"team": "T01D8518C4V",
+			"bot_profile": {
+				"id": "B025ARL7FDH",
+				"deleted": false,
+				"name": "VictoryMA",
+				"updated": 1623884413,
+				"app_id": "A024VRZADPZ",
+				"icons": {
+					"image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+					"image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+					"image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+				},
+				"team_id": "T01D8518C4V"
+			}
+		},
+		{
+			"type": "message",
+			"subtype": "channel_join",
+			"ts": "1623966127.001300",
+			"user": "U025P838CJV",
+			"text": "<@U025P838CJV> has joined the channel",
+			"inviter": "U01DPS5EAC9"
+		},
+		{
+			"client_msg_id": "e6f56945-7c89-4ea3-8fe8-13d678cb8284",
+			"type": "message",
+			"text": "This is general Victory Chatter",
+			"user": "U01DPS5EAC9",
+			"ts": "1623966098.001100",
+			"team": "T01D8518C4V",
+			"blocks": [
+				{
+					"type": "rich_text",
+					"block_id": "XrFUm",
+					"elements": [
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "This is general Victory Chatter"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"client_msg_id": "0aa54458-0f06-4533-841f-b4c9384ab1ae",
+			"type": "message",
+			"text": "hello hello",
+			"user": "U01DPS5EAC9",
+			"ts": "1623966085.000800",
+			"team": "T01D8518C4V",
+			"blocks": [
+				{
+					"type": "rich_text",
+					"block_id": "aEa5",
+					"elements": [
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "hello hello"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"client_msg_id": "f96465e4-98be-4f41-b0c0-86b9efa16cce",
+			"type": "message",
+			"text": "afdadasd",
+			"user": "U01DPS5EAC9",
+			"ts": "1623966082.000600",
+			"team": "T01D8518C4V",
+			"blocks": [
+				{
+					"type": "rich_text",
+					"block_id": "8rQRb",
+					"elements": [
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "afdadasd"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "message",
+			"subtype": "channel_purpose",
+			"ts": "1623966015.000300",
+			"user": "U01DPS5EAC9",
+			"text": "<@U01DPS5EAC9> set the channel description: Victory MA General Chatter",
+			"purpose": "Victory MA General Chatter"
+		},
+		{
+			"type": "message",
+			"subtype": "channel_join",
+			"ts": "1623966015.000200",
+			"user": "U01DPS5EAC9",
+			"text": "<@U01DPS5EAC9> has joined the channel"
+		}
+	],
+	"has_more": false,
+	"pin_count": 0,
+	"channel_actions_ts": null,
+	"channel_actions_count": 0
+}
