@@ -1,0 +1,12 @@
+{
+    "base": "./WebContent",
+    "conn_usestrickssl": false,
+    "conn_server": "http://jarquin.us.lmco.com:8000/",
+    "conn_client": "030",
+    "conn_user": "n88977",
+    "conn_password": "(B338i786)))",
+    "abap_package": "ZCESUI5_CUST",
+    "abap_transport": "MDFK901053",
+    "abap_bsp": "ZCESFLP",
+    "abap_bsp_text": "CES Launchpad"
+}

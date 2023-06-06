@@ -7,3 +7,22 @@
     font-size: 0.9rem;
     font-family: sans-serif;
 }
+.lmsearch {
+    font-family: SAP-icons;
+    /* width: 6rem; */
+    /* border-style: solid; */
+    border-radius: 7px;
+    /* line-height: 2rem; */
+    /* background-color: #0092d1; */
+    color: white;
+    /* padding-left: 1rem; */
+}
+
+.lmsubhead {
+    height: 2.5rem;
+}
+.lmsearch>span {
+    color: white;
+    display: table;
+    margin: 0 auto;
+}

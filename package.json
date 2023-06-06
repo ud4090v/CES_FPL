@@ -1,0 +1,8 @@
+{
+    "name": "zcesflp",
+    "description": "CES Launchpad",
+    "scripts": {
+        "build": "npx ui5 build --clean-dest",
+        "upload": "npx nwabap upload --nwabaprc .mdf"
+    }
+}

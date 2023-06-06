@@ -1,0 +1,20 @@
+specVersion: "2.0"
+type: application
+ui5Theme: sap_fiori_3
+server:
+   customMiddleware:
+      - name: fiori-tools-proxy
+        afterMiddleware: compression
+        configuration:
+          ignoreCertError: true # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
+metadata:
+  name: zcesflp
+resources:
+  configuration:
+    propertiesFileSourceEncoding: UTF-8
+    paths:
+      webapp: WebContent
+builder:
+  cachebuster:
+    signatureType: time
+    
